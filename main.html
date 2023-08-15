@@ -1,40 +1,58 @@
 <!DOCTYPE html>
-
 <html>
-
 <head>
-	<link rel="stylesheet" href="styles.css">
+  <title>Student Details Table</title>
+  <style>
+    table {
+      width: 50%;
+      margin: auto;
+      background-color: yellow;
+      border-collapse: collapse;
+    }
+    th, td {
+      border: 1px solid black;
+      padding: 8px;
+      text-align: center;
+    }
+    th {
+      background-color: #f0f0f0;
+    }
+  </style>
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
 
-	<table border="1">
-		<h2>Student Details</h2>
-		<tr>
-		<td>NAME</td>
-			<td>AGE</td>
-			<td>BRANCH</td>
-		</tr>
-		<tr>
-		<td>Shaw</td>
-			<td>20</td>
-			<td>CSE</td>
-		</tr>
-		<tr>
-		<td>Adil</td>
-			<td>21</td>
-			<td>ECE</td>
-		</tr>
-
-
-
-
-	</table>
-		
+<table>
+  <caption>Student Details</caption>
+  <thead>
+    <tr>
+      <th>NAME</th>
+      <th>AGE</th>
+      <th>BRANCH</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Alice</td>
+      <td>20</td>
+      <td>Computer Science</td>
+    </tr>
+    <tr>
+      <td>Bob</td>
+      <td>22</td>
+      <td>Electrical Engineering</td>
+    </tr>
+    <tr>
+      <td>Charlie</td>
+      <td>21</td>
+      <td>Mechanical Engineering</td>
+    </tr>
+    <tr>
+      <td>Diana</td>
+      <td>19</td>
+      <td>Mathematics</td>
+    </tr>
+  </tbody>
+</table>
 
 </body>
-
 </html>
